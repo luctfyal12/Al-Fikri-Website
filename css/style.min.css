@@ -25,9 +25,9 @@ body {
     position: fixed;
     opacity: .8;
     z-index: -1;
-    background: #f12711;
-    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-    background: linear-gradient(to right, #f5af19, #f12711); }
+    background: #005f20;
+    background: -webkit-linear-gradient(to right, #199223, #016427);
+    background: linear-gradient(to right, #199223, #016427); }
 
 .boxed-page {
   margin: 0 auto;
@@ -90,6 +90,11 @@ h6,
   font-family: 'Work Sans', sans-serif;
   margin-top: 0; }
 
+.logo {
+  width: 120px;
+  height: 80px;
+}
+
 p {
   font-size: 1.6rem;
   font-weight: 300;
@@ -121,13 +126,35 @@ a:hover {
 .btn-group-sm > .btn, .btn-sm {
   padding: .5rem; }
 
+.section-tentang {
+  padding-top: 80px;
+  padding-bottom: 80px; 
+  display: flex;
+}
+
 .section-content {
   padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px; 
+}
 
-.title-wrap,
+.image-wrap {
+  display: flex;
+  align-items: center;
+}
+.image-wrap img {
+  width: 4000px;
+}
+
 .section-title {
   text-align: center; }
+
+.title-wrap,
+.section-sub-title {
+  text-align: justify }
+
+.title-wrap {
+  margin-left: 50px;
+}
 
 .bg-white {
   background-color: #fff; }
@@ -155,6 +182,10 @@ a:hover {
 
 .text-red {
   color: #FC665F; }
+
+.text-white {
+  color: white;
+}
 
 a {
   color: #f15e75; }
@@ -231,7 +262,6 @@ a {
   border-radius: 0; }
 
 .jumbotron {
-  background-color: #fff;
   padding-top: 80px;
   padding-bottom: 80px;
   background-repeat: no-repeat;
@@ -253,7 +283,7 @@ a {
     position: absolute;
     display: block;
     content: "";
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     opacity: 0.8;
     top: 0;
     bottom: 0;
