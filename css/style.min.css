@@ -95,6 +95,13 @@ h6,
   height: 80px;
 }
 
+@media (max-width: 768px) {
+  .logo {
+    width: 80px;
+    height: 60px;
+  }
+}
+
 p {
   font-size: 1.6rem;
   font-weight: 300;
@@ -132,6 +139,12 @@ a:hover {
   display: flex;
 }
 
+@media (max-width: 768px) {
+  .section-tentang {
+    flex-direction: column;
+  }
+}
+
 .section-content {
   padding-top: 80px;
   padding-bottom: 80px; 
@@ -147,13 +160,32 @@ a:hover {
 
 .section-title {
   text-align: center; }
+  
 
 .title-wrap,
 .section-sub-title {
   text-align: justify }
 
+  @media (max-width: 768px) {
+    .section-sub-title {
+      text-align: center;
+    }
+  }
+
 .title-wrap {
   margin-left: 50px;
+}
+@media (max-width: 768px) {
+  .title-wrap {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-content-maps iframe {
+    width: 400px;
+    height: 300px;
+  }
 }
 
 .bg-white {
