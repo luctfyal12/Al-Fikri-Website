@@ -216,6 +216,12 @@ a:hover {
   }
 }
 
+.carousel-item img {
+  object-fit: cover;
+  min-height: 300px;
+  max-height: 600px;
+}
+
 .bg-white {
   background-color: #fff; }
 
